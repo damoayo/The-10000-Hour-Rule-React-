@@ -65,6 +65,11 @@ const TimePlaceholder = styled.input`
   border-radius: 7px;
   box-sizing: border-box;
   background: rgba(255, 255, 255, 1);
+  font-family: "GmarketSansMedium";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
 
   &::placeholder {
     width: 94px;
@@ -86,6 +91,12 @@ const Placeholder = styled.input`
   border: 1px solid #ffffff;
   border-radius: 7px;
   background: rgba(255, 255, 255, 1);
+  left: 100px;
+  font-family: "GmarketSansMedium";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
 
   &::placeholder {
     width: 148px;
@@ -206,8 +217,6 @@ const MainFront = ({ onCalculateDateClick }) => {
           </ClickHandText>
           <ClickImage src="./img/click.png" alt="Click" />
         </ClickHand>
-
-
       </MainContainer>
     </>
   );
